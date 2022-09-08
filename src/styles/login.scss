@@ -1,0 +1,22 @@
+@import './global.scss';
+.login__container{
+    height: 100vh;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    color: white;
+    .left__container{
+        background-color: white;
+        width: 50%;
+        padding: 5rem;
+        color: black;
+        .icon{
+            color: $primary-color;
+            text-transform: capitalize;
+        }
+    }
+    .right__container{
+        background-color: $primary-color;
+        width: 50%;
+    }
+}
